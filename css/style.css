@@ -1,0 +1,45 @@
+* {margin:0px;}
+body{background:silver;}
+a:link{outline:none; border:none;}a:visited{outline:none; border:none;} a:active{outline:none; border:none;}
+#header a{text-decoration:none;}
+#footer a{text-decoration:none; color:white;}
+#header{margin :0px auto 2px auto; width:1029px; background:#D9D9D9; height:100px; border-bottom:5px solid #10253F;}
+#section{margin :0px auto 0px auto; width:1029px;  height:300px; border:2px solid silver;}
+#section .first{float:right;width:49%; }
+#section .second{width:49%; }
+#header .first{float:left; width:38%; color:#10253F;  font-family: calisto MT; height:98px; line-height:100px; 
+margin:0px 0px 0px 30px; font-size:30px; }
+#header .secon{float:right; width:50%;  height:98px; }
+#header .secon ul  {margin :38px 0px 0px -5px;  width:500px; }
+#header .secon ul  li{font-family: Andalus; display:inline-block; margin :0px 30px 0px 30px; border:1px solid #10253F; font-size:14px;
+ border-radius:3px; background:#10253F; color:white; height:30px; line-height:30px; width:90px; text-align:center;}
+#header .secon ul  li:hover{ background:#D9D9D9; color:#10253F; border:1px solid white;}
+.captionOrange, .captionBlack{color: #fff; font-size: 21px; line-height: 30px; text-align: center; border-radius:4px;}
+.captionOrange {background: #EB5100; background-color: rgba(235, 81, 0, 0.6);}
+.captionBlack{font-size:16px; background: #000; background-color: rgba(0, 0, 0, 0.4);}
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited{color: #ffffff; text-decoration: none;}
+a.captionOrange:hover {color: #eb5100;text-decoration: underline; background-color: #eeeeee; background-color: rgba(238, 238, 238, 0.7);}
+.bricon {background: url(../img/browser-icons.png);}
+#order {margin-left:322px; text-decoration:none; font-size:20px; color:#898989;}
+#footer{margin:0px auto 0px auto; width:1029px; background:#10253F; color:white; height:95px;}
+#footer .copy{margin :50px 0px 0px 30px; float:left; width:49%;  font-size:19px;}
+#login{margin:100px auto 100px auto; width:280px; background:white;}
+#login h2{margin:0px 0px 0px 40px; color:#10253F;}
+#login input{margin:0px 0px 0px 40px; width:200px; height:35px;}
+#login span{margin:0px 0px 0px 40px; color:red;}
+#clear{clear:both;}
+#logout {float:right; margin:35px 20px 0px 0px; font-size:20px;}
+#register{margin:40px 0px 60px 40px; width:280px; background:white;}
+#register h2{margin:0px 0px 0px 40px; color:#10253F;}
+#register input{margin:0px 0px 0px 40px; width:200px; height:35px;}
+#register span{margin:0px 0px 0px 40px; color:red;}
+#section .content{float:right;  width:65%; margin:5px 0px 5px 0px; font-size:20px;}
+#section .content .addlec{margin:2px 0px 10px 100px;}
+#section .content .addlec input {margin:2px 0px 0px 0px ; width:200px; height:35px;}
+#section .content .addlec select {margin:2px 0px 0px 0px ; width:200px; height:35px;}
+#section .navv{float:left; width:30%; height:300px; margin:5px 0px 5px 0px; }
+#section .content table {width:650px;}
+#section .content table th {text-align:left;}
+#section .navv a{width:100%; height:55px; color:white; line-height:55px; display:block; text-align:center;  background:#10253F; 
+margin-top:2px; font-size:22px; text-decoration:none;}
+#userta{width:500px; margin-left:50px; font-size:21px;}
